@@ -1,4 +1,4 @@
 == README
 
-This is a Sample Twitter App which fetches top retweeters of a partiicular tweet on the basis of number of followers.
+This is a Sample Twitter App which fetches top retweeters of a particular tweet on the basis of number of followers.
 
