@@ -1,0 +1,39 @@
+// Place all the styles related to the logics controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.img-circle {
+border-radius: 50%;
+}
+
+div.main-profile-image {
+position: absolute;
+width: 300px;
+height: 300px;
+margin-left: auto;
+left: 170px;
+top: 270px;
+}
+
+#influences-wrapper {
+position: relative;
+z-index: 10;
+width: 600px;
+height: 500px;
+margin-left: auto;
+margin-right: auto;
+}
+
+img.infulence-image {
+height: 100px;
+width: 100px;
+background: white;
+}
+
+.center-text {
+	text-align:center;
+}
+
+.radial_div_item>a {
+display: inline-block;
+}

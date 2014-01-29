@@ -1,0 +1,20 @@
+<div class='influences-wrapper ui-radmenu-parent' id='influences-wrapper'>
+	<h1 class="center-text">Yet Another Solution</h1>
+	<h3 class="center-text">Last Updated at <%= Time.now %></h3>
+	<div class='main-profile-image'>
+		<img class='img-circle main-image' src='http://pbs.twimg.com/profile_images/426158315781881856/sBsvBbjY.png'>
+	</div>
+	<div class='radial-list'>
+	<% count = 1 %>
+		<ul class='list'>
+		<% @results.each do |result| %>
+			<li class='item'>
+				<a data-original-title='<%= count %>' data-placement='top' data-toggle='tooltip' href='#' title='' >
+					<img class='infulence-image img-circle' src='<%= result[0] %>'>
+				</a>
+				<% count = count+1 %>
+			</li>
+		<% end %>
+		</ul>
+	</div>
+</div>
